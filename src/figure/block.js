@@ -5,6 +5,10 @@
  * Simple block, renders and saves the same content without any interactivity.
  */
 
+//  Import CSS.
+import './style.scss';
+import './editor.scss';
+
 const { RichText, MediaUpload, PlainText } = wp.editor;
 const { registerBlockType } = wp.blocks;
 const { Button } = wp.components;

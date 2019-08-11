@@ -5,7 +5,9 @@
  * Simple block, renders and saves the same content without any interactivity.
  */
 
-
+//  Import CSS.
+import './style.scss';
+import './editor.scss';
 
 const { __ } = wp.i18n; 
 const { registerBlockType } = wp.blocks; 
