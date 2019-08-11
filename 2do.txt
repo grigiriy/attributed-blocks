@@ -1,0 +1,69 @@
+Блоки
+
+	ВОПРОС-ВРАППЕР
+	<div itemprop="mainEntity" itemscope="" itemtype="http://schema.org/Question">
+		>>ЗАГ-2
+		<div itemprop="acceptedAnswer" itemscope="" itemtype="http://schema.org/Answer">
+			<div itemprop="text">
+
+	ХАУТУ-ВРАППЕР
+	<div itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep">
+        >>ЗАГ-2
+        <div itemprop="itemListElement" itemscope="" itemtype="http://schema.org/HowToTip">    
+            >>ЗАГ-3                 
+            <div itemprop="text">
+
+	👌КАРТИНКА
+	<img src="" alt="" itemprop="image">
+
+	👌КАРТИНКА - фигур
+	<figure>
+		<img src="" alt="" itemprop="image">
+		<figcaption itemprop="text">
+
+	👌ЗАГ-1
+	<h1 itemprop="name">
+
+	СПИСОК-ВРАППЕР
+	<ol>
+		<li>
+			<figure>
+				>>КАРТИНКА
+			<figcaption>
+
+	ТАБЛИЦА
+	<table>
+		<caption>
+		<thead>
+			<tr>
+				<th>
+		<tbody>
+			<tr>
+				<td>
+
+	БЛОК С ХАРАКТЕРИСТИКАМИ
+	<div id="m-plity">
+        >>ЗАГ-3
+        <div itemprop="supply" itemscope="" itemtype="http://schema.org/HowToSupply">
+            <div class="row">
+                <div class="col-md-7">
+                    >>ЗАГ-4
+                    >>КАРТИНКА
+                <div class="col-md-5" itemscope="" itemtype="http://schema.org/Table">
+                    >>ТАБЛИЦА
+            <div itemprop="description">
+     
+    БЛОК С ПРИМЕРОМ
+    <div class="row" itemprop="supply" itemscope="" itemtype="http://schema.org/HowToSupply">
+        <div class="col-md-5">
+            >>КАРТИНКА
+        <div class="col-md-7">
+            >>ЗАГ-4
+            <p itemprop="description">
+
+     ВИДЖЕТ ДЛЯ ШАПКИ
+     file:///Users/gregorymalyshev/Downloads/design/shumoizolyaciya-steni-cena.html
+
+     КАРТОЧКА
+     file:///Users/gregorymalyshev/Downloads/design/shumoizolyaciya-steni-cena.html
+

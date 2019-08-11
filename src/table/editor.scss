@@ -1,0 +1,25 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .wp-block-pricing-table {
+ 	.pricingItem-controls-sm {
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 		.blocks-color-palette {
+ 			width: 100%;
+ 		}
+ 		.blocks-base-control {
+ 			width: 100%;
+ 			padding: 0 5px;
+ 			margin-bottom: 10px
+ 		}
+ 		.blocks-range-control {
+ 			width: 100%;
+ 			margin-bottom: 40px;
+ 		}
+ 	}
+ }

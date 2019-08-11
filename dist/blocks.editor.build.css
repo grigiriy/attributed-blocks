@@ -1,0 +1,26 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-pricing-table .pricingItem-controls-sm {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .wp-block-pricing-table .pricingItem-controls-sm .blocks-color-palette {
+    width: 100%; }
+  .wp-block-pricing-table .pricingItem-controls-sm .blocks-base-control {
+    width: 100%;
+    padding: 0 5px;
+    margin-bottom: 10px; }
+  .wp-block-pricing-table .pricingItem-controls-sm .blocks-range-control {
+    width: 100%;
+    margin-bottom: 40px; }
