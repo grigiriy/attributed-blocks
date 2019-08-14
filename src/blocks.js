@@ -12,5 +12,6 @@
 import './figure/block.js';
 import './img/block.js';
 import './wrapper/block.js';
+import './ols/block.js';
 
-import './customizer.js';
+import './addition/attributes.js';
