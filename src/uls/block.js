@@ -1,5 +1,5 @@
 /**
- * BLOCK: ols-block
+ * BLOCK: uls-block
  *
  * Registering a basic block with Gutenberg.
  * Simple block, renders and saves the same content without any interactivity.
@@ -13,9 +13,9 @@ const { Component, Fragment } = wp.element;
 const { InnerBlocks, InspectorControls } = wp.editor;
 const { PanelBody, ToggleControl } = wp.components;
 
-registerBlockType( 'blocks/ols-block', {
-  title: __( 'ols-block', 'ols-block' ), 
-  icon: 'editor-ol',
+registerBlockType( 'blocks/uls-block', {
+  title: __( 'uls-block', 'uls-block' ), 
+  icon: 'editor-ul',
   category: 'layout',
     attributes: {
       wrapper: {
@@ -50,9 +50,9 @@ save ( { attributes } ) {
   const { wrapper } = attributes;
   if (wrapper) {
     return (
-      <ol>
+      <ul>
         <InnerBlocks.Content />
-      </ol>
+      </ul>
     )
   } else {
     return (

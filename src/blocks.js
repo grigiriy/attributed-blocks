@@ -9,9 +9,10 @@
  * Webpack is compiling as the input file.
  */
 
-import './figure/block.js';
-import './img/block.js';
-import './wrapper/block.js';
-import './ols/block.js';
+import "./figure/block.js";
+import "./img/block.js";
+import "./wrapper/block.js";
+import "./ols/block.js";
+import "./uls/block.js";
 
-import './addition/attributes.js';
+import "./addition/attributes.js";

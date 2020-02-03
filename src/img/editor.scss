@@ -5,19 +5,19 @@
  * which makes it higher in priority.
  */
 
-.wp-block-cgb-block-attributed-block  {
-  background: $green;
-  border: 0.2rem solid $black;
-  color: $black;
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 2rem;
+.wp-block-cgb-block-attributed-block {
+	background: $green;
+	border: 0.2rem solid $black;
+	color: $black;
+	margin: 0 auto;
+	max-width: 740px;
+	padding: 2rem;
 }
 
 textarea._att {
-	height: auto;
-	border: solid 1px;
-	padding: 5px;
+	height: auto !important;
+	border: solid 1px !important;
+	padding: 5px !important;
 }
 
 ._wrap {
